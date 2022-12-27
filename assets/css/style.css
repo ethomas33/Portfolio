@@ -1290,12 +1290,12 @@ p.exp-for-p {
     margin-left: 40px;
 }
 .skills-icon iconify-icon {
-  color: #DEACCC;
-  padding-right: 8px;
-  font-size: 24px;
+  color: #DEACCC !important;
+  padding-right: 8px !important;
+  font-size: 24px !important;
 }
 .skills-icon iconify-icon:hover {
-  color: #fff;
+  color: #fff !important;
 }
 p.featured-paragraph {
   margin-left: -35px;
