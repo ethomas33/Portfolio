@@ -305,14 +305,14 @@ section#portfolio {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #00000085;
+  color: #2a002a;
 }
 
 .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 3px;
   background: #2a002a;
   bottom: 0;
@@ -495,12 +495,12 @@ section#portfolio {
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
+  left: -7px;
+  top: 3px;
+  background: #2a002a;
   border: 2px solid #2a002a;
 }
 
@@ -1252,7 +1252,7 @@ p.resume-paragrph{
 .exp-icons i.bx {
   background: #b176b1 ;
   font-size: 100px !important;
-  padding: 10px;
+  padding: 1px;
   border-radius: 28px;
 }
 p.exp-for-p { 
