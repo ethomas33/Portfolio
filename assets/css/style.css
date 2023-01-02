@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #BC5898;
+  color: #2a002a;
 }
 
 a:hover {
-  color: #DEACCC;
+  color: #b176b1;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #BC5898;
+  background: #2a002a;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #BC5898;
+  background: #5c215c;
   transition: background 0.2s ease-in-out;
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #BC5898;
+  background: #2a002a;
   overflow-y: auto;
   padding-top: 40px;
 }
@@ -77,8 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #DEACCC;
+  width: 150px;
+  border: 4px solid #fff;
 }
 
 #header .profile h1 {
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #DEACCC;
+  background: #b176b1;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #DEACCC;
+  color: #b176b1;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #DEACCC;
+  color: #b176b1;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #BC5898;
+  color: #2a002a;
 }
 
 .mobile-nav-active {
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #BC5898;
+  color: #2a002a;
 }
 
 /*--------------------------------------------------------------
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   ;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #BC5898;
+  border-bottom: 3px solid #2a002a;
 }
 
 @media (min-width: 1024px) {
@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
   }
   .mobile-nav-active .mobile-nav-toggle i {
-    color: #bc5898;
+    color: #2a002a;
 }
 }
 
@@ -314,7 +314,7 @@ section#portfolio {
   display: block;
   width: 50px;
   height: 3px;
-  background: #BC5898;
+  background: #2a002a;
   bottom: 0;
   left: 0;
 }
@@ -455,7 +455,7 @@ section#portfolio {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #BC5898;
+  border-left: 2px solid #2a002a;
   position: relative;
 }
 
@@ -501,7 +501,7 @@ section#portfolio {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #BC5898;
+  border: 2px solid #2a002a;
 }
 
 /*--------------------------------------------------------------
@@ -579,17 +579,17 @@ box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: #DEACCC;
+  background: #b176b1;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #BC5898;
+  background: #2a002a;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #BC5898;
+  border-left: 1px solid #2a002a;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -621,11 +621,11 @@ box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px
 
 .contact .info i {
   font-size: 20px;
-  color: #BC5898;
+  color: #2a002a;
   float: left;
   width: 44px;
   height: 44px;
-  background: #DEACCC;
+  background: #b176b1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -672,12 +672,12 @@ box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px
 }
 
 .contact .info .social-links a:hover {
-  background: #BC5898;
+  background: #2a002a;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #BC5898;
+  background: #2a002a;
   color: #fff;
 }
 
@@ -768,7 +768,7 @@ box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #BC5898;
+  background: #2a002a;
 }
 
 #footer .copyright {
@@ -1098,36 +1098,36 @@ div.isotope-pager{
       color: #fff;
   }
   .mobile-nav-active .mobile-nav-toggle i {
-    color: #BC5898;
+    color: #2a002a;
     ;
 }
   a#hire-btn{
-    background: #DEACCC;
+    background: #b176b1;
     padding: 10px;
     border-radius: 8px;
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 500;
-    color: #BC5898;
+    color: #2a002a;
   }
   a#hire-btn:hover{
-    background: #BC5898;
+    background: #2a002a;
     color: #fff;
      }
 
      
     a#dwnld-btn {
       margin-left: 25px;
-      background: #DEACCC;
+      background: #b176b1;
       padding: 10px;
       border-radius: 8px;
       font-family: 'Raleway';
       font-size: 18px;
-      color: #BC5898;
+      color: #2a002a;
       font-weight: 500;
   }
   a#dwnld-btn:hover {
-    background: #BC5898;
+    background: #2a002a;
     color: #fff;
 }
 .exp-icon i {
@@ -1147,7 +1147,7 @@ i.bx.bx-cloud-download {
   font-size: 22px;
   position: relative;
   top: 3px;
-  color: #BC5898;
+  color: #2a002a;
 }
 i.bx.bx-cloud-download:hover {
   margin-left: 10px;
@@ -1191,11 +1191,11 @@ a#hire-btn{
   font-size: 85px !important;
 }
 .feature-exp iconify-icon {
-  background: #DEACCC;
+  background: #b176b1;
   font-size: 100px !important;
   padding: 10px;
   border-radius: 28px;
-  color: #BC5898;
+  color: #2a002a;
   margin-left: 95px;
 }
 .exp-icon i {
@@ -1226,13 +1226,13 @@ p.resume-paragrph{
   padding-bottom: 25px;
 }
 .exp-icon i.bx {
-  background: #DEACCC ;
+  background: #b176b1 ;
   font-size: 100px !important;
   padding: 10px;
   border-radius: 28px;
 }
 .exp-icon .bx::before {
-  color: #BC5898;
+  color: #2a002a;
 }
 .feature-exp img.img-fluid {
   width: 100%;
@@ -1247,10 +1247,10 @@ p.resume-paragrph{
   margin-left: 40px;
 }
 .exp-icons .bx::before {
-  color: #BC5898;
+  color: #2a002a;
 }
 .exp-icons i.bx {
-  background: #DEACCC ;
+  background: #b176b1 ;
   font-size: 100px !important;
   padding: 10px;
   border-radius: 28px;
@@ -1282,15 +1282,15 @@ p.exp-for-p {
 }
 
 .feature-exp iconify-icon {
-  background: #DEACCC;
+  background: #b176b1;
     font-size: 100px !important;
     padding: 10px;
     border-radius: 28px;
-    color: #BC5898;
+    color: #2a002a;
     margin-left: 40px;
 }
 .skills-icon iconify-icon {
-  color: #DEACCC !important;
+  color: #b176b1 !important;
   padding-right: 8px !important;
   font-size: 24px !important;
 }
@@ -1309,7 +1309,7 @@ p.featured-paragraph {
     top: -35px;
     left: 230px;
     font-size: 21px;
-    background: #bc5898;
+    background: #2a002a;
     padding: 4px 8px;
     color: #fff;
     border-radius: 4px;
@@ -1324,7 +1324,7 @@ p.featured-paragraph {
       padding-bottom: 0;
   }
   .resume-item.education-dev {
-    border-left: 0px solid #BC5898;
+    border-left: 0px solid #2a002a;
 }
 
 .feature-exp p.pt-3 {

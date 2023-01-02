@@ -1,2 +1,2 @@
-My Web Portfolio!
-Don't COPY! ALL rights reserved.
+Web Portfolio.
+Do not copy all rights reserved.
