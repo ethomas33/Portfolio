@@ -866,8 +866,8 @@ div#container {
   width:100%;
   height:239px;
   filter: url(filters.svg#grayscale);
-    filter: gray;
-    -webkit-filter: grayscale(1);
+    filter: grayscale(.7);
+    -webkit-filter: grayscale(.7);
     transition: 0.9s;
 }
 .grid-item img:hover{
@@ -1140,7 +1140,7 @@ div.isotope-pager{
   font-size: 85px !important;
 }
 .exp-icons i {
-  margin-left: 180px;
+  margin-left: 0px;
 }
 i.bx.bx-cloud-download {
   margin-left: 10px;
@@ -1218,7 +1218,7 @@ a#hire-btn{
 
 
 p.resume-paragrph{
-  color: #7f7f7f;
+  color: #707070;
 }
 
 .feature-exp {
@@ -1243,9 +1243,7 @@ p.resume-paragrph{
 .exp-icon i {
   margin-left: 55px;
 }
-.exp-icons i {
-  margin-left: 40px;
-}
+
 .exp-icons .bx::before {
   color: #2a002a;
 }
@@ -1273,12 +1271,11 @@ p.exp-for-p {
   display: block;
   width: 50%;
   text-align: center !important;
-  height: 3px;
-  background: #7f7f7f;
+  height: 2px;
+  background: #707070;
   bottom: 0;
-  /* left: 224px; */
   right: 0px;
-  margin-left: 240px;
+  margin-left: 25%;
 }
 
 .feature-exp iconify-icon {
@@ -1300,9 +1297,18 @@ p.exp-for-p {
 p.featured-paragraph {
   margin-left: -35px;
   font-size: 18px;
-
-  
 }
+
+/** START: Editorial and Visual Story Telling layout **/
+.col-lg-6.exp-icon.aos-init.aos-animate {
+    border-right: 2px solid #707070;
+    padding-right: 25px;
+}
+.col-lg-6.pt-4.pt-lg-0.content.aos-init.aos-animate {
+    padding-left: 25px;
+}
+/** END: Editorial and Visual Story Telling layout **/
+
 .portfolio-links.feature-profile i.bx.bx-folder-plus
 {
     position: relative;
@@ -1328,12 +1334,12 @@ p.featured-paragraph {
 }
 
 .feature-exp p.pt-3 {
-  margin-left: -45px;
+/*   margin-left: -45px; */
   font-size: 18px;
 }
 
 .feature-exp p.pt-4 {
-  margin-left: -45px;
+/*   margin-left: -45px; */
   font-size: 18px;
 }
   .exp-for-p p.resume-paragrph {
