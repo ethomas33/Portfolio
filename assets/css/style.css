@@ -25,7 +25,14 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
+.purple-background{
+  background: #b176b1;
+}
+.purple-border-left {
+  display: block;
+  border-left: 2px solid #b176b1;
+  padding-left: 10px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -305,10 +312,12 @@ section#portfolio {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #2a002a;
+  color: #2A0029;
+  text-decoration: underline;
+  text-decoration-color: #B176B1;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
@@ -317,7 +326,7 @@ section#portfolio {
   background: #2a002a;
   bottom: 0;
   left: 0;
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
@@ -503,7 +512,10 @@ section#portfolio {
   background: #2a002a;
   border: 2px solid #2a002a;
 }
-
+.resume .resume-item.no-dot::before {
+  background: none;
+  border: none;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1142,7 +1154,7 @@ div.isotope-pager{
 .exp-icons i {
   margin-left: 0px;
 }
-i.bx.bx-cloud-download {
+/* i.bx.bx-cloud-download {
   margin-left: 10px;
   font-size: 22px;
   position: relative;
@@ -1155,7 +1167,7 @@ i.bx.bx-cloud-download:hover {
   position: relative;
   top: 3px;
   color: #fff;
-}
+} */
 
 @media (min-width: 0px) and (max-width: 767px){
   /* a#dwnld-btn {
