@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 2px solid #b176b1;
   padding-left: 10px;
 }
+hr.section-divider {
+  border-top: 1px solid #707070;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
